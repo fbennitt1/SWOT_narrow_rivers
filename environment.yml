@@ -1,0 +1,38 @@
+name: narrowPIXC
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - xarray
+  - numpy
+  - time
+  - matplotlib
+  - pyproj
+  - shapely
+  - pandas
+  - contextily
+  - geopandas
+  - ipykernel
+  - cartopy
+  - h5netcdf
+  - earthaccess
+  - fiona
+  - pandarallel
+  - seaborn
+  - conda-forge::scipy
+  - dask
+  - dask-geopandas
+  - pyreadr
+  - conda-forge::exactextract
+  - rioxarray
+  - python-duckdb
+  - conda-forge::dataretrieval
+  - conda-forge::tqdm
+  - conda-forge::tenacity
+  - conda-forge::scikit-posthocs
+  - ipywidgets
+  - libgdal
+  - poppler
+  - libsqlite=3.54.1
+prefix: /work/pi_cjgleason_umass_edu/.conda/envs/narrowPIXC
